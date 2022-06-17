@@ -8,8 +8,6 @@ environment:
 
 dependencies:
   js: ^0.6.0
-  cosy_webview_annotation:
-    path: ./../../../dart/cosy_webview_annotation
 
 dev_dependencies:
   build_runner: ^2.1.4
