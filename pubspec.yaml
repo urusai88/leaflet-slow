@@ -1,0 +1,30 @@
+name: leaflet
+description: A new Flutter project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: any
+  cosy_webview:
+    path: ./../../dart/cosy_webview
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: LeafletWeb
+        fileName: leaflet_web.dart
